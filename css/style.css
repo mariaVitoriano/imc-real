@@ -1,0 +1,51 @@
+/* Show it is fixed to the top */
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+    background-color: rgb(230, 229, 225);
+  }
+  .img-fluid{
+ margin-right: 5.4%;
+  }
+  .navbar-brand{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+
+  }
+.card{
+  background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	padding: 10px;
+	margin: 30px;
+  height: 500px; ;
+	width: 500px;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	align-items: center;
+  position: center;
+  
+
+}
+
+.img-hau{
+  align-items: right;
+  margin-top: 5%;
+  margin-right: 100px;
+  border-radius: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cal{
+  background-color: #ffffff;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-bottom: 50px;
+ font-size: large;
+ width: 101%;
+	
+  
+
+}

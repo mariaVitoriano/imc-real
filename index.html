@@ -1,0 +1,310 @@
+         <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC-aula1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- ícone -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header>
+        <head><script src="../assets/js/color-modes.js"></script>
+
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+            <meta name="generator" content="Hugo 0.122.0">
+            <title>Fixed top navbar example · Bootstrap v5.3</title>
+        
+            <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/navbar-fixed/">
+        
+            
+        
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+        
+        <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+            <style>
+              .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                user-select: none;
+              }
+        
+              @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                  font-size: 3.5rem;
+                }
+              }
+        
+              .b-example-divider {
+                width: 100%;
+                height: 3rem;
+                background-color: rgba(0, 0, 0, .1);
+                border: solid rgba(0, 0, 0, .15);
+                border-width: 1px 0;
+                box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+              }
+        
+              .b-example-vr {
+                flex-shrink: 0;
+                width: 1.5rem;
+                height: 100vh;
+              }
+        
+              .bi {
+                vertical-align: -.125em;
+                fill: currentColor;
+              }
+        
+              .nav-scroller {
+                position: relative;
+                z-index: 2;
+                height: 2.75rem;
+                overflow-y: hidden;
+              }
+        
+              .nav-scroller .nav {
+                display: flex;
+                flex-wrap: nowrap;
+                padding-bottom: 1rem;
+                margin-top: -1px;
+                overflow-x: auto;
+                text-align: center;
+                white-space: nowrap;
+                -webkit-overflow-scrolling: touch;
+              }
+        
+              .btn-bd-primary {
+                --bd-violet-bg: #712cf9;
+                --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+        
+                --bs-btn-font-weight: 600;
+                --bs-btn-color: var(--bs-white);
+                --bs-btn-bg: var(--bd-violet-bg);
+                --bs-btn-border-color: var(--bd-violet-bg);
+                --bs-btn-hover-color: var(--bs-white);
+                --bs-btn-hover-bg: #6528e0;
+                --bs-btn-hover-border-color: #6528e0;
+                --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+                --bs-btn-active-color: var(--bs-btn-hover-color);
+                --bs-btn-active-bg: #5a23c8;
+                --bs-btn-active-border-color: #5a23c8;
+              }
+        
+              .bd-mode-toggle {
+                z-index: 1500;
+              }
+        
+              .bd-mode-toggle .dropdown-menu .active .bi {
+                display: block !important;
+              }
+             
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tauri&display=swap');
+
+            </style>
+        
+            
+    
+    
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+          <div class="container-fluid">
+            <img class="img-fluid" src="imc.png" height="50px" width="50px">
+            <a class="navbar-brand " href="#">CALCULAR IMC</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" aria-disabled="true"></a>
+                </li>
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+        
+      
+        
+    </header>
+    <div class="img-hau">
+      <img src="sau.jpg" width="699px" height="500px" class="rounded float-end" alt="...">
+    </div>
+             
+
+    <main class="container">
+      <div class="card col-md-6">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">O que é IMC?</h1>
+        <p class="col-md-20 fs-4">O Índice de Massa Corporal (IMC) é uma medida que avalia se uma pessoa está dentro do peso ideal para sua altura. 
+          Ele é calculado a partir da relação entre a massa corporal e a altura ao quadrado.</p>
+      
+    </div>
+  </div>
+</div>
+ 
+               <div class="cal">
+           <h1 class="display-3 text-center p-5">Calcular</h1>
+               </div>
+        <div class="row">
+            <div class="col-md-6 col-12 ">
+                <div class="">
+
+                    <h2 class="text-center">
+                        Coloque seus dados
+                    </h2>
+
+                    <div class="py-3">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" class="form-control">
+                    </div>
+
+                    <div class="py-3">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" class="form-control">
+                    </div>
+
+                    <div class="py-3">
+                        <label for="categoria">Selecione uma categoria</label>
+
+                        <select  id="categoria" class="form-control">
+
+                            <option value="adulto">Adulto</option>
+                            <option value="infantil">Infantil</option>
+
+                        </select>
+                    </div>
+             
+
+                    <div class="py-3">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <label for="peso">Peso</label>
+                                <input type="number" id="peso" placeholder="peso" class="form-control">
+                            </div>
+
+                            <div class="col-6">
+                                <label for="altura">Altura</label>
+                                <input type="number" id="altura" placeholder="altura" class="form-control">
+                            </div>
+                        </div>
+
+
+
+                        
+                    </div>
+
+
+                    <div class="py-3 text-center">
+
+                        <button id="btn" class="btn btn-outline-primary w-50 ">
+                            Cadastrar
+                        </button>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12 text-center ">
+                <div class="">
+                    <h2>Dados cadastrados</h2>
+                </div>
+        
+                <table class="table table-resposibe">
+                      <tr>
+                           <td>Nome</td>
+                           <td>Sobrenome</td>
+                             <td>Altura</td>
+                              <td>Peso</td>
+                              <td>IMC</td>
+                              <td>Classificação</td>
+
+                </tr>
+                
+                <tbody id="resultado">
+                  
+                </tbody>
+                </table>
+
+               
+
+            </div>
+        </div>
+
+        
+        <div class="row mt-4 d-none d-lg-block">
+          <div class="col-md-12">
+            <h3>Tabela de resultados do IMC</h3>
+            <table id="tabela-resultado-imc" class="table table-striped"> 
+              <thead class="thead-dark"> 
+                <tr> 
+                  <th class="td-first-col" scope="col">Resultado</th> 
+                  <th scope="col">Situa&ccedil;&atilde;o</th> 
+                </tr> 
+              </thead> 
+              <tbody> 
+                <tr> 
+                  <td class="td-first-col">Abaixo de 17</td> 
+                  <td>Muito abaixo do <em>peso</em></td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Entre 17 e 18,49</td> 
+                  <td>Abaixo do <em>peso</em></td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Entre 18,5 e 24,99</td> 
+                  <td><em>Peso</em> normal</td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Entre 25 e 29,99</td> 
+                  <td>Acima do <em>peso</em></td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Entre 30 e 34,99</td> 
+                  <td><em>Obesidade</em> I</td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Entre 35 e 39,99</td> 
+                  <td><em>Obesidade</em> II (severa)</td> 
+                </tr> 
+                <tr> 
+                  <td class="td-first-col">Acima de 40</td> 
+                  <td><em>Obesidade</em> III (m&oacute;rbida)</td> 
+                </tr> 
+              </tbody> 
+            </table> 
+          </div>
+        </div>
+
+    </main>
+
+<br><br><br>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
